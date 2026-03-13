@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Tracks rollup progress for windowed and resumable execution.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <label>Rollup Cursor</label>
+    <nameField>
+        <label>Rollup Cursor Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Rollup Cursors</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

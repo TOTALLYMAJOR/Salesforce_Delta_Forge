@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata
+    xmlns="http://soap.sforce.com/2006/04/metadata"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>CpuThresholdPct__c</field>
+        <value xsi:type="xsd:double">85</value>
+    </values>
+    <values>
+        <field>SoqlThresholdPct__c</field>
+        <value xsi:type="xsd:double">80</value>
+    </values>
+    <values>
+        <field>DmlThresholdPct__c</field>
+        <value xsi:type="xsd:double">80</value>
+    </values>
+    <values>
+        <field>HeapThresholdPct__c</field>
+        <value xsi:type="xsd:double">80</value>
+    </values>
+    <values>
+        <field>CalloutThresholdPct__c</field>
+        <value xsi:type="xsd:double">80</value>
+    </values>
+    <values>
+        <field>QuantumMaxRules__c</field>
+        <value xsi:type="xsd:double">25</value>
+    </values>
+    <values>
+        <field>QuantumMaxRows__c</field>
+        <value xsi:type="xsd:double">200</value>
+    </values>
+    <values>
+        <field>RollupWindowDefault__c</field>
+        <value xsi:type="xsd:double">200</value>
+    </values>
+    <values>
+        <field>SpilloverChannel__c</field>
+        <value xsi:type="xsd:string">Queueable</value>
+    </values>
+    <values>
+        <field>SpilloverPriority__c</field>
+        <value xsi:type="xsd:string">Low</value>
+    </values>
+    <values>
+        <field>ObserveOnly__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>SpilloverEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

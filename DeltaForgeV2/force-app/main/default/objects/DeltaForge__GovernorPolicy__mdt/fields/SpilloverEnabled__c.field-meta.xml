@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpilloverEnabled__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Feature flag for enabling spillover decisions outside observe-only mode.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Spillover Enabled</label>
+    <required>false</required>
+    <type>Checkbox</type>
+</CustomField>
